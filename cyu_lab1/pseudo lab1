@@ -1,0 +1,15 @@
+if (month == 12 thorugh month 2 ) {
+	document.write("winter"); 
+} 
+
+ else if (month == 3 thorugh month 5) {
+	document.write("spring"); 
+}
+
+else if (month == 6 - 9 ){
+	documentw.write("summer");
+}
+
+else if (month == 9 - 11){
+	document.write("fall");
+}

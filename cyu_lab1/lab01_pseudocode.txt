@@ -1,0 +1,54 @@
+Charlie Yu 
+CMSY 172-050
+February 24, 2018
+Lab 1: Pseudocode
+
+Start
+
+	Declare and prompt user to enter month number and set month number initialized to '1'
+
+	Display String "Seasons"
+
+	While (condition month < 13) 
+
+		if (month = 1) 
+			display ("monthName" + month + " - Winter")
+
+		if (month = 2)
+			display ("monthName" + month + " - Winter")
+
+		if (month = 3)
+			display ("monthName" + month + " - Spring")
+
+		if (month = 4)
+			display ("monthName" + month + " - Spring")
+
+		if (month = 5)
+			display ("monthName" + month + " - Spring")
+
+		if (month = 6)
+			display ("monthName" + month + " - Summer")
+
+		if (month = 7) 
+			display ("monthName" + month + " - Summer")
+
+		if (month = 8) 
+			display ("monthName" + month + " - Summer")
+
+		if (month = 9)
+			display ("monthName" + month + " - Fall")
+
+		if (month = 10)
+			display ("monthName" + month + " - Fall")
+
+		if (month = 11)
+			display ("monthName" + month + " - Fall")
+
+		if (month = 12)
+			display ("monthName" + month + " - Winter")
+
+		Increment month + 1
+
+	End while loop
+
+End

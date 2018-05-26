@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 4 - Charlie Yu</title>
+
+	</head>
+	<body>
+   
+    <script>
+      	/*  CMSY 172 
+			
+		Name: Charlie Yu
+		Program Description: Programmer defined objects
+		Date: 4/4/2018
+					
+		Modify the studentRecord object	as indicated below.		
+
+			1. Change the name property to fname and assign a first name of your choosing
+					
+			2. Add an lname property and assign a last name of your choosing
+					
+			3. Set the major property to a major of your choosing
+					
+			4. Add a gpa property	and set it to zero
+					
+			5. Modify the displayStudentRecord method to print all of the 
+				studentRecord properties in the following order: fname, lname, major, gpa
+							
+			6. Add an else clause to the if statement in the setMajor method that 
+				displays an error message if a new major value was not passed in.
+					 
+			7. Add a setGPA method that has one parameter called newGPA.  
+				Set the student gpa property equal to the newGPA parameter.  Make sure to  
+				verify that a new gpa value was passed in.  If a new gpa value was not 
+				passed in display an error message.  The setGPA method is similar to the
+				setMajor method.
+      	*/
+			
+		//Turn on strict mode 
+		"use strict";
+
+      	//Create and initialize the studentRecord object
+      	var studentRecord = {
+        	fname : "Charlie",
+        	lname : "Yu",
+        	major: "Information Systems",
+        	gpa: 0,
+        
+        	//Method to display all properties in the studentRecord object
+        	displayStudentRecord : function()
+        	{
+				document.write("Name: " + this.fname + " " + this.lname + "<br><br>");
+          		document.write("Major: " + this.major + "<br><br>");
+          		document.write("GPA: " + this.gpa + "<br><br>");
+        	}, 
+
+        	//Method to set the studentRecord object's major property
+       		setMajor : function (newMajor) 
+        	{ 
+        		if (newMajor != "") 
+        		{
+            		this.major = newMajor;
+          		} 
+
+          		else {
+          			document.write("new major error!");
+          		} 
+        	},
+
+        	//Add a new method called setGPA. This method
+        	//will be used to update the gpa property.
+			setGPA : function (newGPA)
+			{
+				if (newGPA != "") 
+				{
+					this.gpa = newGPA;
+				} 
+
+				else {
+					document.write("new gpa error!");
+				}
+			},
+        
+      	}; //end object
+
+        //****Begin using the studentRecord object methods****
+      	//Remember to always prefix the properties and methods with
+      	//the name of the object using . (dot) notation.
+			
+		//1. Call the studentRecord's displayStudentRecord method
+		studentRecord.displayStudentRecord();
+			
+		//2. Call the studentRecord's setMajor method to change the major 
+		//   Use any major you want
+		studentRecord.setMajor("Mechanical Engineer");
+			
+		//3. Call the studentRecord's setGPA method to change the GPA
+		//   Use any GPA you want
+		studentRecord.setGPA(3.19);
+			
+		//4. Call the studentRecord's displayStudentRecord method
+		studentRecord.displayStudentRecord();     
+
+		console.log(studentRecord);
+
+ 
+    </script>
+    
+	</body>
+</html>
+
+
