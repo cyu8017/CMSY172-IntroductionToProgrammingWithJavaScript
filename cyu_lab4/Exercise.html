@@ -1,53 +1,52 @@
-:x
 <html lang="en">
 	<head>
-		<meta charset="utf-8">		
+		<meta charset="utf-8">
 		<title>CE - JS Native Objects</title>
 
 	</head>
 	<body>
-    
+
 		<script>
 	    //Name: Charlie Yu
 	    //Program Description: Practice with the strings and the Date object
 	    //Date: 3/14/2018
-	      
-	    //Turn on strict mode 
+
+	    //Turn on strict mode
 		"use strict";
-	      
+
 	    //Trim the pageTitle and convert it to uppercase
 	    var pageTitle = "js native object practice";
 	    pageTitle = pageTitle.trim();
 	    pageTitle = pageTitle.toUpperCase();
-	      
-	    //If you did it right, this line should display the trimmed uppercase 
+
+	    //If you did it right, this line should display the trimmed uppercase
 	    //version of the pageTitle variable from the previous step.
 	    document.write("<h1>" + pageTitle + "</h1>");
-	      
+
 	    //Get the length of the pageTitle and display it
 	    var ptLength = pageTitle.length;
 	    document.write("The page title is " + ptLength + " characters long.");
-	      
+
 	    //Create a new date object called today with todays date
 	    var today = new Date();
 	    var todayDate = today.toDateString();
 
-	    //Modify the following to display the numeric values for the month, 
+	    //Modify the following to display the numeric values for the month,
 	    //day, and year from the today date object created in the previous step.
 	    document.write("Today is: ")
 	    document.write("  Month: " + today.getMonth());
 	    document.write("  Day: " + today.getDate());
 	    document.write("  Year: " + today.getFullYear());
 	    document.write("<br><br>");
-	    
+
 	   	document.write("Today's date is: " + todayDate);
 	   	document.write("<br>");
 
 	    //Create a new date object using the following date value(milliseconds):  946702800000
 	    //Give it a name of your choosing
 	    var a = new Date(946702800000);
-	    
-	    //Use the toDateString method on your new date object from 
+
+	    //Use the toDateString method on your new date object from
 	    //the previous step to display the date.
 	    var b = a.toDateString();
 	    document.write("New date: " + b);
@@ -59,8 +58,6 @@
 	    document.write("The number of milliseconds between the two dates is: " + difference);
 
 		</script>
-    
+
 	</body>
 </html>
-
-
