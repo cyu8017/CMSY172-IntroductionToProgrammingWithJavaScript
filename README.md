@@ -1,4 +1,4 @@
-# CMSC172_IntroductionToJavaScript
+# CMSC 172 Introduction To JavaScript
 
 This course is an introduction to computer programming using JavaScript programming language. It will present the beginning to intermediate topics necessary to create, design, write, test, debug, and document programs for execution in a web browser. This course is designed to teach students how to add interactive capabilities to websites and web applications, how to develop programs utilizing the software development life cycle methodology, and the foundational skills needed for learning other programming languages. It is assumed that students are familiar with HTML and file management.
 
