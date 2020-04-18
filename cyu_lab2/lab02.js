@@ -14,7 +14,7 @@ numToCheck = parseInt(numToCheck);
 if (isNaN(numToCheck)) {
     alert("Error: Your emtry is not an integer."); 
 } else {
-    var result = isOdd(numToCheck);
+    let result = isOdd(numToCheck);
     if (result === true) {
         document.write("Your entry of " + numToCheck + " is odd."); 
     } else {
