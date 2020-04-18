@@ -16,8 +16,8 @@ if (isNaN(numToCheck)) {
 } else {
     var result = isOdd(numToCheck);
     if (result === true) {
-        document.write(numToCheck + " is odd<br>"); 
+        document.write("Your entry of " + numToCheck + " is odd."); 
     } else {
-        document.write(numToCheck + " is even<br>"); 
+        document.write("Your entry of " + numToCheck + " is even."); 
     }
 }
