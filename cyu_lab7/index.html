@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Forms Lab</title>
+
+</head>
+
+<body>
+
+  <form action="" id="mainform">
+
+    <!-- 
+      1. Update the three input elements between the label tags and set them to type text.
+         The three input elements are for gathering the user's first name, last name, and email address.  
+         
+         Give them the following id's: fname, lname, emailAddress
+    -->
+    <label>First Name: <input type="text" id="fname" /> </label><br><br>
+    <label>Last Name: <input type="text" id="lname" /> </label><br><br>
+    <label>Email: <input type="text" id="emailAddress" /> </label><br><br>
+
+    <!--       
+      2. Update the fourth input element below. 
+          - Set the type to button.  
+          - Give it an id of dispVals.
+          - Use "Display Values" for the value attribute
+    -->
+    <input type="button" id="dispVals" value="Display Values" />
+
+  </form>
+
+
+  <!-- Use this paragraph element to display the values from the form -->
+  <p id="outputEl"></p>
+
+  <!-- App JS -->
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
+</html>
