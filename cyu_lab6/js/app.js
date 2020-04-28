@@ -16,7 +16,7 @@ function clearImage() {
     var image = document.getElementById("map");
   
     // Use the map.jpg image for the image source.
-    image.src = "map.jpg";
+    image.src = "images/map.jpg";
 }
 
 // Mouseout event handler function
@@ -25,7 +25,7 @@ function blurImage() {
     var image = document.getElementById("map");
   
     // Use the mapblur.jpg image for the image source.
-    image.src = "mapblur.jpg";
+    image.src = "images/mapblur.jpg";
 }
 
 // Use the init function for the onload event handler to make sure the whole page is loaded 
